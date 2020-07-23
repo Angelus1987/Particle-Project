@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>WebGL Particles</title>
+		<style>
+			html, body{margin: 0; padding:0; overflow: hidden;}
+		</style>
+		<script src="C:/Users/torha/Desktop/Coding Projects/Three.js/build/three.min.js"></script>
+		<script src="C:/Users/torha/Desktop/Coding Projects/Three.js/examples/js/loaders/GLTFLoader.js"></script>
+	</head>
+	<body>
+		<script>
+			var camera, scene, renderer;
+			var mouse = new THREE.Vector2();
+			var clock = new THREE.Clock();
+			scene = new THREE.Scene();
+			scene.background = new THREE.Color(0xbfd1e5);
+
+			camera = new THREE.PerspectiveCamera(35, window.innerWidth / window.innerHeight, 1, 2000);
+			camera.position.set(0,100,50);
+			scene.add(camera);
+			
+			//JS code goes here
+		</script>
+	</body>
+</html>
